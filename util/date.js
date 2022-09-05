@@ -1,5 +1,5 @@
-const dateFormattedDate = (date) => {
-  return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`;
+const getFormattedDate = (date) => {
+  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 };
 
-module.exports = { dateFormattedDate };
+module.exports = { getFormattedDate };
